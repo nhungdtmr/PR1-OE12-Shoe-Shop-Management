@@ -1,0 +1,64 @@
+<header id="header"><!--header-->
+  <div class="header_top"><!--header_top-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="contactinfo">
+            <ul class="nav nav-pills">
+              <li><%= link_to "<i class='fa fa-phone'></i> +2 95 01 88 821".html_safe, "#"%></li>
+              <li><%= link_to "<i class='fa fa-envelope'></i> info@domain.com".html_safe, "#"%></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="social-icons pull-right">
+            <ul class="nav navbar-nav">
+              <li><%= link_to "<i class='fa fa-facebook'></i>".html_safe, "https://www.facebook.com/marinhungdo"%></li>
+              <li><%= link_to "<i class='fa fa-google-plus'></i>".html_safe, "https://plus.google.com/discover"%></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/header_top-->	
+  <div class="header-middle"><!--header-middle-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="logo pull-left">
+            <%= link_to image_tag("home/logo.png", alt: "Shop logo"), root_path %>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="shop-menu pull-right">
+            <ul class="nav navbar-nav">
+              <li><%= link_to "<i class='fa fa-user'></i> Account".html_safe, "#"%></li>
+              <li><%= link_to "<i class='fa fa-shopping-cart'></i> Cart".html_safe, "#"%></li>
+              <li><%= link_to "<i class='fa fa-lock'></i> Login".html_safe, "#"%></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/header-middle-->
+  <div class="header-bottom"><!--header-bottom-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9">
+          <div class="mainmenu pull-left">
+            <ul class="nav navbar-nav collapse navbar-collapse">
+              <li><%= link_to t(".home"), root_path, class: "active" %></li>
+              <li><%= link_to t(".help"), help_path %></li>
+              <li><%= link_to t(".contact"), contact_path %></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="search_box pull-right">
+            <input type="text" placeholder="Search"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/header-bottom-->
+</header><!--/header-->
