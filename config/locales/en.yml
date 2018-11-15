@@ -1,4 +1,9 @@
 en:
+  controllers:
+    concerns:
+      users_controller:
+        success: "Create accout successfull"
+        users.invalid: "User invalid"
   layouts:
     footer:
       name_develop: "ABC team"
@@ -31,5 +36,19 @@ en:
       help_title: "Help"
     contact:
       contact_title: "Contact"
+  users:
+    new:
+      sign_up_title: "Create new Account"
+      name: "Name"
+      enter_name: "Please enter your name"
+      email: "Email"
+      enter_email: "Please enter your email"
+      password: "Password"
+      enter_pass: "Please enter your password"
+      phone: "Phone"
+      enter_phone: "Please enter your phone number"
+      address: "Address"
+      enter_address: "Please enter your address"
+      signup: "Sign up"
   english: "English"
   vietnamese: "Vietnamese"

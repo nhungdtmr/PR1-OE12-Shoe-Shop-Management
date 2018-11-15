@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+h1#center-parent {
+  text-align: center;
+}
+
 .btn:hover, 
 .btn:focus{
   outline: none;
@@ -79,7 +83,7 @@ a#scrollUp i{
 }
 
 .contactinfo ul li a:hover{
-	background:inherit;
+  background:inherit;
 }
 
 .social-icons ul li a {
@@ -90,7 +94,7 @@ a#scrollUp i{
 }
 
 .social-icons ul li{
-	display:inline-block;
+  display:inline-block;
 }
 
 .social-icons ul li a i {
@@ -114,7 +118,7 @@ a#scrollUp i{
 }
 
 .fa-google-plus:hover  {
-	background:$strong-red;
+  background:$strong-red;
 }
 
 .header-middle .container .row {
@@ -130,7 +134,7 @@ a#scrollUp i{
 }
 
 .header-middle .container .row .col-sm-8 {
-	padding-right:0;
+  padding-right:0;
 }
 
 .btn-group.open .dropdown-toggle {
@@ -147,7 +151,7 @@ a#scrollUp i{
 
 
 .shop-menu ul li {
-	display:inline-block;
+  display:inline-block;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -168,12 +172,12 @@ a#scrollUp i{
 }
 
 .shop-menu ul li a i{
-	margin-right:3px;
+  margin-right:3px;
 }
 
 .shop-menu ul li a:hover {
-	color:$yellow-orange;
-	background:$white;
+  color:$yellow-orange;
+  background:$white;
 }
 
 .header-bottom {
@@ -195,17 +199,17 @@ a#scrollUp i{
 }
 
 .mainmenu ul li a {
-	color: $dark-gambogeish-gray;
-	font-family: 'Roboto', sans-serif;
-	font-size: 17px;
-	font-weight: 300;
-	padding: 0;
-	padding-bottom: 10px;
+  color: $dark-gambogeish-gray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 0;
+  padding-bottom: 10px;
 }
 
 .mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{
-	background:none;
-	color:$rajah;
+  background:none;
+  color:$rajah;
 }
 
 .search_box input {
@@ -240,18 +244,18 @@ a#scrollUp i{
 }
 
 ul.sub-menu {
-	position: absolute;
-	top: 30px;
-	left: 0;
-	background: rgba(0, 0, 0, 0.6);
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	width: 220px;
-	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-	display: none;
-	z-index: 999;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 220px;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 999;
 }
 
 .dropdown ul.sub-menu li .active{
@@ -401,7 +405,7 @@ ul.sub-menu {
   overflow: hidden;
 }
 .address  img {
-	width:100%;
+  width:100%;
 }
 
 .address p {
@@ -433,15 +437,15 @@ ul.sub-menu {
 }
 
 .single-widget h2 i{
-	margin-right:15px;
+  margin-right:15px;
 }
 
 .single-widget ul li a{
-	color: $jumbo;
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	padding: 5px 0;
+  color: $jumbo;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 5px 0;
 }
 
 .single-widget ul li a i {
@@ -449,8 +453,8 @@ ul.sub-menu {
 }
 
 .single-widget ul li a:hover{
-	background:none;
-	color:$yellow-orange;
+  background:none;
+  color:$yellow-orange;
 }
 
 .searchform input {
@@ -480,7 +484,7 @@ ul.sub-menu {
 
 .searchform  button:hover, 
 .searchform  button:focus{
-	background-color:$yellow-orange;
+  background-color:$yellow-orange;
 }
 
 .searchform p {
@@ -520,7 +524,7 @@ ul.sub-menu {
 }
 
 .carousel-indicators li.active {
-	  background: $yellow-orange;
+    background: $yellow-orange;
 }
 
 .item {
@@ -545,7 +549,7 @@ ul.sub-menu {
 }
 
 .item h1 span {
-	color:$black;
+  color:$black;
 }
 
 .item h2 {
@@ -558,10 +562,10 @@ ul.sub-menu {
 }
 
 .item  p {
-	color:$acadia;
-	font-size:16px;
-	font-weight:300;
-	font-family: 'Roboto', sans-serif;
+  color:$acadia;
+  font-size:16px;
+  font-weight:300;
+  font-family: 'Roboto', sans-serif;
 }
 
 .get {
@@ -614,46 +618,46 @@ ul.sub-menu {
 }
 
 .left-sidebar h2:after, h2.title:after{
-	content: " ";
-	position: absolute;
-	border: 1px solid $white-smoke;
-	bottom:8px;
-	left: 0;
-	width: 100%;
-	height: 0;
-	z-index: -2;
+  content: " ";
+  position: absolute;
+  border: 1px solid $white-smoke;
+  bottom:8px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: -2;
 }
 
 .left-sidebar h2:before{
-	content: " ";
-	position: absolute;
-	background: $white;
-	bottom: -6px;
-	width: 130px;
-	height: 30px;
-	z-index: -1;
-	left: 50%;
-	margin-left: -65px;
+  content: " ";
+  position: absolute;
+  background: $white;
+  bottom: -6px;
+  width: 130px;
+  height: 30px;
+  z-index: -1;
+  left: 50%;
+  margin-left: -65px;
 }
 
 h2.title:before{
-	content: " ";
-	position: absolute;
-	background: $white;
-	bottom: -6px;
-	width: 220px;
-	height: 30px;
-	z-index: -1;
-	left: 50%;
-	margin-left: -110px;
+  content: " ";
+  position: absolute;
+  background: $white;
+  bottom: -6px;
+  width: 220px;
+  height: 30px;
+  z-index: -1;
+  left: 50%;
+  margin-left: -110px;
 }
 
 .category-products .panel {
-	background-color: $white;
-	border: 0px;
-	border-radius: 0px;
-	box-shadow:none;
-	margin-bottom: 0px;
+  background-color: $white;
+  border: 0px;
+  border-radius: 0px;
+  box-shadow:none;
+  margin-bottom: 0px;
 }
 
 .category-products .panel-default .panel-heading {
@@ -767,7 +771,7 @@ h2.title:before{
 }
 
 .features_items{
-	overflow:hidden;
+  overflow:hidden;
 }
 
 h2.title {
@@ -782,9 +786,9 @@ h2.title {
 }
 
 .product-image-wrapper{
-	border:1px solid $ivory-light;
-	overflow: hidden;
-	margin-bottom:30px;
+  border:1px solid $ivory-light;
+  overflow: hidden;
+  margin-bottom:30px;
 }
 
 .single-products {
@@ -798,16 +802,16 @@ h2.title {
 }
 
 .productinfo h2{
-	color: $yellow-orange;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
+  color: $yellow-orange;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
 }
 .product-overlay h2{
-	color: $white;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
+  color: $white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .productinfo p{
@@ -894,7 +898,7 @@ h2.title {
 }
 
 .add-to-cart i{
-	margin-right:5px;
+  margin-right:5px;
 }
 
 .add-to-cart:hover {
@@ -915,12 +919,12 @@ h2.title {
 }
 
 .choose ul li a i{
-	margin-right:5px;
+  margin-right:5px;
 }
 
 .choose ul li a:hover{
-	background:none;
-	color:$yellow-orange;
+  background:none;
+  color:$yellow-orange;
 }
 
 .category-tab {
@@ -947,8 +951,8 @@ h2.title {
 }
 
 .category-tab ul  li  a:hover{
-	background:$yellow-orange;
-	color:$white;
+  background:$yellow-orange;
+  color:$white;
 }
 
 .nav-tabs  li.active  a, .nav-tabs  li.active  a:hover, .nav-tabs  li.active  a:focus {
@@ -1008,7 +1012,7 @@ h2.title {
 }
 
 .our_partners ul li a:hover{
-	background:none;
+  background:none;
 }
 
 /********************************Shop CSS********************************/
@@ -1060,14 +1064,14 @@ h2.title {
 }
 
 .pagination  li  a:hover{
-	background:$black;
-	color:$white;
+  background:$black;
+  color:$white;
 }
 
 /********************************Product Details CSS********************************/
 
 .product-details{
-	overflow:hidden;
+  overflow:hidden;
 }
 
 #similar-product {
@@ -1109,7 +1113,7 @@ h2.title {
 }
 
 #similar-product .carousel-inner .item{
-	padding-left:0px;
+  padding-left:0px;
 }
 
 #similar-product .carousel-inner .item img {
@@ -1129,7 +1133,7 @@ h2.title {
 }
 
 .item-control i:hover{
-	background:$celest;
+  background:$celest;
 }
 
 .product-information {
@@ -1142,9 +1146,9 @@ h2.title {
 }
 
 .newarrival{
-	position:absolute;
-	top:0;
-	left:0
+  position:absolute;
+  top:0;
+  left:0
 }
 
 .product-information h2 {
@@ -1217,8 +1221,8 @@ h2.title {
   padding-bottom: 10px;
 }
 .shop-details-tab .col-sm-12 {
-	padding-left: 0;
-	padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #reviews ul {
@@ -1230,7 +1234,7 @@ h2.title {
 }
 
 #reviews  ul  li {
-	display:inline-block;
+  display:inline-block;
 }
 
 #reviews ul li a {
@@ -1242,17 +1246,17 @@ h2.title {
 }
 
 #reviews ul li a i{
-	color:$yellow-orange;
-	padding-right:8px;
+  color:$yellow-orange;
+  padding-right:8px;
 }
 
 #reviews ul li a:hover{
-	background:$white;
-	color:$yellow-orange;
+  background:$white;
+  color:$yellow-orange;
 }
 
 #reviews p{
-	color:$acadia;
+  color:$acadia;
 }
 
 #reviews  form span {
@@ -1411,16 +1415,16 @@ h2.title {
 }
 
 .or{
-	background: $yellow-orange;
-	border-radius: 40px;
-	color: $white;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	height: 50px;
-	line-height: 50px;
-	margin-top: 75px;
-	text-align: center;
-	width: 50px;
+  background: $yellow-orange;
+  border-radius: 40px;
+  color: $white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 75px;
+  text-align: center;
+  width: 50px;
 }
 
 
@@ -1459,7 +1463,7 @@ h2.title {
 }
 
 .breadcrumbs .breadcrumb > li + li:before {
-  content: " ";
+  content: " ";
 }
 
 #cart_items .cart_info {
