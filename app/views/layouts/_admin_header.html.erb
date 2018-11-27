@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="logo pull-left">
-            <%= link_to image_tag("home/logo.png", alt: "Shop logo"), root_path %>
+            <%= link_to image_tag("home/logo-admin.png", alt: "Shop logo"), admin_users_path %>
           </div>
         </div>
         <div class="col-sm-8">
@@ -11,7 +11,7 @@
             <ul class="nav navbar-nav">
               <% if logged_in? %>
                 <li><%= link_to t(".user"), admin_users_path %></li>
-                <li><%= link_to t(".items"), "#"%></li>
+                <li><%= link_to t(".items"), admin_products_path %></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <i class="fa fa-user"></i><%= t ".account" %>
