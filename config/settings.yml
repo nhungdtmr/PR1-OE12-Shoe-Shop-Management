@@ -1,6 +1,10 @@
+link:
+  link_author: "http://www.michaelhartl.com/"
+  link_edit: "http://gravatar.com/emails"
 value:
   user_size: 80
   user_page: 10
+  img_size: 70
   maximum_name: 50
   maximum_email: 255
   maximum_pass: 6

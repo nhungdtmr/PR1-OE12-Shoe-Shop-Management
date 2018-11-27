@@ -1,7 +1,8 @@
 class User < ApplicationRecord
   has_many :comments
   has_many :orders
-
+  scope :created_at, -> {order created_at: :desc}
+  scope :select_users, -> {select :name, :email, :address, :phone, :id}
   attr_accessor :remember_token
   before_save :downcase_email
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
