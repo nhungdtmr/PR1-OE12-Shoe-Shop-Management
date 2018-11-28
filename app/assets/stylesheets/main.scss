@@ -1353,6 +1353,21 @@ h2.title {
 
 }
 
+.checkbox {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  span {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
 .login-form h2, .signup-form h2 {
   color: $dark-gambogeish-gray;
   font-family: 'Roboto', sans-serif;

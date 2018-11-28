@@ -13,6 +13,15 @@ en:
       shop: "-Shop"
       address: "New York City"
       deve_by: "Developed by "
+  sessions:
+    new:
+      login_title: "Login"
+      email: "Email"
+      enter_email: "Please enter your email"
+      password: "Password"
+      enter_pass: "Please enter your password"
+      new_user: "New user? "
+      sign_up: "Sign up"
   static_pages:
     home:
       base_title: "Home"
