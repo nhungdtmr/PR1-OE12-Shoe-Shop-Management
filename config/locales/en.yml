@@ -11,10 +11,18 @@ en:
       no_delete: "Delete user error."
       create_failed: "Create fail"
   admin:
+    products:
+      index:
+        allproduct: "All Product"
+        description: "this is page show all product"
     users:
       index:
         users_title: "All users"
   layouts:
+    admin_layout:
+      allproduct: "All Product"
+    header:
+      admin_page: "Admin Page"
     application:
       title: "Camera shop"
     footer:

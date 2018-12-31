@@ -14,3 +14,4 @@ value:
   microposts_size: 1
   size_img: 400
   per_page: 10
+  product_page: 20
