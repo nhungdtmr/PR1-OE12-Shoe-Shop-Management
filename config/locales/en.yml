@@ -1,10 +1,28 @@
 en:
   controllers:
-    concerns:
-      users_controller:
-        success: "Create accout successfull"
-        users.invalid: "User invalid"
+    admin:
+      admins_controller:
+        invalid: "User invalid"
+    users_controller:
+      success: "Create accout successfull"
+      update_profile: "Profile updated"
+      user_delete: "User deleted"
+      no_such: "No such user"
+      no_delete: "Delete user error."
+      create_failed: "Create fail"
+  admin:
+    users:
+      index:
+        admin_page: "This page for admin"
+        users_title: "All users"
+        you_want: "You want to delete user. Are you sure?"
   layouts:
+    application:
+      title: "Camera shop"
+    admin_layout:
+      title: "Admin Page"
+      user_delete: "User deleted"
+      no_delete: "No delete"
     footer:
       name_develop: "ABC team"
       about: "About"
@@ -59,5 +77,16 @@ en:
       address: "Address"
       enter_address: "Please enter your address"
       signup: "Sign up"
+    edit:
+      edit_title: "Edit user"
+      edit_title_h1: "Update your profile"
+      enter_pass: "password"
+      save: "Save changes"
+      current_user: "Current User"
+    index:
+      all_users: "All users"
+    user:
+      delete: "Delete"
+      you_sure: "You sure?"
   english: "English"
   vietnamese: "Vietnamese"
